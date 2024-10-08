@@ -1,0 +1,24 @@
+    {"nome":"Jose Pedro","celular":909375648,"email":"jose@gmail.com"},
+    {"nome":"Diogo Ferreira","celular":928475603,"email":"diogo@gmail.com"},
+    {"nome":"Ferreira Diogo","celular":9584632019,"email":"ferreira@gmail.com"},
+    {"nome":"Gelson Pedrito","celular":9475860366,"email":"gelson@gmail.com"},
+    {"nome":"Faustino Ngunza","celular":9403958463,"email":"faustino@gmail.com"},
+    {"nome":"Gomes Andre","celular":9485673845,"email":"gomes@gmail.com"},
+    {"nome":"Gaspar Gomes","celular":936236755,"email":"gaspar@gmail.com"},
+    {"nome":"Luiz Pascoal","celular":98475623000,"email":"luiz@gmail.com"},
+    {"nome":"Delza Pereira","celular":904458867,"email":"delza@gmail.com"}
+
+
+
+    
+ /*  
+    pelos vistos o fetch está ok, mas 
+    pra fazer o fetch tens que ter um server ,
+    pra atender o teu pedido e dar uma resposta
+ var users2 = fetch("./users.json")
+    .then((response)=>{response.json})
+    .then((data)=>console.log(data))
+    .catch((err)=>{
+        console.log(err);
+    })
+*/

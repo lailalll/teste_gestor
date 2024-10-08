@@ -1,0 +1,135 @@
+header{
+    border: none;
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: white;
+    z-index: 1;
+    background-color:rgba(44, 44, 77, 0.993);
+    padding: 10px 5px 0px 0px;
+    box-shadow: 1px 1px 4px rgb(119, 117, 117);
+}
+.box_log{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    height: 60px;
+    width: 90%;
+   
+}
+.log{
+    border: none;
+    height: 60px;
+    width: 80px;
+}
+header > div h3{
+    text-align: start;
+    font-size: 16px;
+    color: rgb(184, 184, 190);
+    padding-left: 2px;
+    border-left: 2px solid white;
+}
+
+.box_user{
+    padding-top: 10px;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    min-height: 120px;
+    width: 90%;
+}
+details:hover{
+    cursor: pointer;
+}
+details p{
+    text-align: start;
+    padding-left: 30px;
+    display: flex;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+details p span{
+    display: flex;
+    min-width: 30%;
+    margin: 2px 0px;
+}
+.user{
+    border: 2px solid black;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+header div:nth-child(3){
+    display: flex;
+    width: 90%;
+    
+}
+header div nav{
+    border:none;
+    width: 90%;
+    min-height: 280px;
+    display: flex;
+    flex-direction: column;
+
+}
+header div nav ol{ 
+    display: flex;
+    flex-direction:column;
+    width: 99%;
+    height: 90%;
+}
+header div nav ol li{ 
+    flex-grow: 1;
+    list-style: none;
+    text-align: start;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 10px 0px;
+    flex-grow: 1;
+    width: 80px;
+    position: relative;
+}
+ol li span{
+    padding-left: 10px;
+}
+header div nav ol li img{ 
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+
+}
+/* interactions with mouse hover elements*/
+
+ol li:hover span{
+    color: rgb(1, 1, 49);
+    font-weight: bold;
+    cursor: pointer;
+}
+ol li:active span{
+    color: skyblue;
+}
+ol li:hover span::after{
+    content: " ";
+    width: 1px;
+    height: 1px;
+    border: .5px solid white;
+    position: absolute;
+    bottom: -5px;
+    left: 2px;
+    border-radius: 10%;
+
+    animation-name: hover;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+}
+@keyframes hover{
+    to{
+        width: 100%;
+    }
+}

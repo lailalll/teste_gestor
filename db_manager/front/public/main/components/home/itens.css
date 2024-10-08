@@ -1,0 +1,38 @@
+.td_op{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ td .op{
+    width: 130px;
+    display: flex;
+    height: 23px;
+    margin-right: 5px;
+    justify-content: center;
+    align-items: center;
+
+}
+.cell{
+
+    padding: 0px 5px ;
+}
+.op button{
+    border: none;
+    margin: 0px 5px;
+    border-radius: 5px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(226, 224, 224);
+}
+.op button img{
+    width: 80%;
+    height: 100%;
+}
+.op button:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.342);
+}
+

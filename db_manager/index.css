@@ -1,0 +1,21 @@
+@import url("./root.css");
+
+*{
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+}
+body{
+    background-color:var(--body_color);
+    background-image: url("./src/photos/b5.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+

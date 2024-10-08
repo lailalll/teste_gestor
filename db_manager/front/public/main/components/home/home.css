@@ -1,0 +1,146 @@
+section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tytle{
+    width: 95%;
+    border-radius: 5px;
+    margin: 10px auto;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background-color:rgba(44, 44, 77, 0.993);
+
+}
+.tytle p:first-child{
+    flex-grow: 1;
+    padding-left: 20px;
+    font-size: 16px;
+}
+.tytle p:last-child{
+    border-left: 2px solid rgb(19, 19, 37);
+    width: 200px;
+    height: 40px;
+    text-align: start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+
+}
+
+.painel{
+    width: 95%;
+    display: flex;
+    min-height: 300px;
+    justify-content: space-between;
+    
+
+}
+.painel .painel_filho{
+    width: 529px;
+    display: flex;
+    border-radius: 0px 0px 10px 10px;
+    background-color:rgba(44, 44, 77, 0.993);
+    padding-top: 5px;
+    flex-direction: column;
+    padding: 1px 5px 15px 5px;
+    align-items: center;
+
+}
+.painel div:first-child .itens{
+    width: 100%;
+    height: 100%;
+    max-height: 500px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-radius: 0px 0px 10px 10px;
+    padding: 0px 0px 5px 5px;
+  
+}
+.painel_filho .itens table{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto;
+  
+}
+tr:nth-child(even){
+    background-color: rgb(19, 19, 37);
+}
+.painel_filho .itens table th{
+    color: white;
+    border: 1px solid gray;
+}
+.painel .itens table td{
+    height: 30px;
+    color: white;
+    padding: 0px 5px;
+    margin: 5px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+}
+.painel .action_all{
+    width: 198px;
+    height: 150px;
+    border-radius: 0px ;
+    background-color:rgba(44, 44, 77, 0.993);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.op_all{
+    height: 100%;
+    width: 100%;
+    padding: 5px 5px;
+} 
+.op_all span{
+    margin: 5px 0px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.op_all button{
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+.op_all button:hover{
+    cursor: pointer;
+    background-color: rgb(119, 113, 113);
+}
+.op_all button img{
+    width: 100%;
+    height: 100%;
+}
+.left .action_all_dois{
+    width: 198px;
+    height: 170px;
+    border-radius: 0px ;
+    background-color:rgba(44, 44, 77, 0.993);
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 0px;
+}
+
+.left .action_all_tres{
+    width: 198px;
+    height: 160px;
+    border-radius: 0px 0px 10px 10px ;
+    background-color:rgba(44, 44, 77, 0.993);
+    display: flex;
+    justify-content: flex-end;
+}
+
